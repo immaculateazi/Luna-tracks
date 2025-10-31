@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My 2do List</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- ✅ Correct Font Awesome Link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+</head>
+<body>
+    <header class="tracker-header">
+        <nav class="tracker-nav">
+            <h2 class="app-name">Luna_Tracks</h2>
+            <!--hamburger-->
+            <div class="hamburger" id="hamburger"> 
+                <span></span>
+                 <span></span>
+                  <span></span>
+            </div>
+            <ul class="nav-menu">
+    <li class="dropdown">
+        <a href="#">Home</a>
+        <ul class="dropdown-menu">
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Updates</a></li>
+        </ul>
+    </li>
+
+    <li class="dropdown">
+        <a href="#">About</a>
+        <ul class="dropdown-menu">
+            <li><a href="#">Our Mission</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Story</a></li>
+        </ul>
+    </li>
+
+    <li class="dropdown">
+        <a href="#">Contact</a>
+        <ul class="dropdown-menu">
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </li>
+</ul>
+        </nav>
+    </header>
+
+    <main>
+       <div class="container">
+        <h1><i class="fas fa-list-check"></i> Daily 2DO List</h1>
+        
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Enter a new task..." maxlength="100">
+            <button id="addTaskBtn">Add Task</button>
+        </div>
+
+        <ul id="taskList">
+            </ul>
+        
+        <div class="controls">
+            <button id="clearCompletedBtn">Clear All Completed</button>
+            <span id="taskCounter">0 tasks remaining</span>
+        </div>
+        
+    </div>
+
+    </main>
+
+    
+    <script src="script.js"></script>
+
+
+
+<footer class="footer">
+    <p>© 2025 Luna_Tracks By Immaculate Azi.  All Rights Reserved.</p>
+
+    <div class="social-links">
+ <a href="https://www.linkedin.com/in/immaculateazi/" target="_blank" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+ <a href="https://github.com/immaculateazi" target="_blank" class="social-icon"><i class="fa-brands fa-github"></i></a>
+ <a href="https://wa.me/2349071497277" target="_blank" class="social-icon"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+</footer>
+</body>
+</html>
